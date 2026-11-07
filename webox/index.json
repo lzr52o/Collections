@@ -1,0 +1,55 @@
+{
+  "name": "WeBox",
+  "version": 1,
+  "author": "ddgksf2013",
+  "sources": [
+    {
+      "name": "libvio",
+      "type": "json",
+      "url": "https://raw.githubusercontent.com/m3u8playlist/dp/refs/heads/master/iplayr/libvio2.json",
+      "logo": "https://ddgksf2013.top/icon/libvio.png"
+    },
+    {
+      "name": "电影天堂",
+      "type": "vod",
+      "url": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+      "logo": "https://ddgksf2013.top/icon/dytt.png"
+    },
+    {
+      "name": "独播库",
+      "type": "json",
+      "url": "https://raw.githubusercontent.com/m3u8playlist/dp/master/iplayr/dbk.json",
+      "logo": "https://ddgksf2013.top/icon/dbku.png"
+    },
+    {
+      "name": "量子资源",
+      "type": "xml",
+      "url": "https://cj.lziapi.com/api.php/provide/vod/at/xml",
+      "logo": "https://ddgksf2013.top/icon/lzi.png"
+    },
+    {
+      "name": "厂长资源",
+      "type": "json",
+      "url": "https://raw.githubusercontent.com/m3u8playlist/dp/master/iplayr/cz.json",
+      "logo": "https://ddgksf2013.top/icon/cz.png"
+    },
+    {
+      "name": "非凡资源",
+      "type": "vod",
+      "url": "https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8",
+      "logo": "https://ddgksf2013.top/icon/ffzy.png"
+    },
+    {
+      "name": "欧乐影视",
+      "type": "json",
+      "url": "https://raw.githubusercontent.com/m3u8playlist/dp/master/iplayr/olevod.json",
+      "logo": "https://ddgksf2013.top/icon/ole.png"
+    },
+    {
+      "name": "无水印资源",
+      "type": "vod",
+      "url": "https://api.wsyzy.net/api.php/provide/vod",
+      "logo": "https://ddgksf2013.top/icon/wsy.png"
+    }
+  ]
+}
