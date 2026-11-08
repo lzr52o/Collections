@@ -1,0 +1,36 @@
+{
+  "name": "Swipt Nightly",
+  "identifier": "io.nekohasekai.swipt",
+  "sourceURL": "https://github.com/swipt-automation/swipt/releases/download/nightly/altstore.json",
+  "iconURL": "https://github.com/swipt-automation/swipt/releases/download/nightly/icon.png",
+  "website": "https://github.com/swipt-automation/swipt",
+  "apps": [
+    {
+      "name": "Swipt",
+      "bundleIdentifier": "io.nekohasekai.swipt",
+      "developerName": "nekohasekai",
+      "localizedDescription": "Swipt automates this iPhone or iPad with JavaScript swiplets.",
+      "iconURL": "https://github.com/swipt-automation/swipt/releases/download/nightly/icon.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "buildVersion": "59",
+          "date": "2026-11-07T10:19:27Z",
+          "downloadURL": "https://github.com/swipt-automation/swipt/releases/download/nightly/Swipt.ipa",
+          "size": 47983887,
+          "sha256": "7211240351ac56213f471779abf53b6a9f564b74af76d7a7c97588df373b8206",
+          "minOSVersion": "16.4"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Swipt connects to developer services on this device and, if you publish its API, accepts connections on the local network.",
+          "NSLocationWhenInUseUsageDescription": "Swipt gets your approximate location only to keep automating this device while you use other apps or the device is locked. It doesn’t keep your location or send it anywhere."
+        }
+      }
+    }
+  ],
+  "news": []
+}
