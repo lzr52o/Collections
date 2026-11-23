@@ -1,3 +1,5 @@
+[English](README_EN.md) · 简体中文 · [日本語](README_JA.md) · [한국어](README_KO.md) · [Türkçe](README_TR.md)
+
 ![Quantumult X 合集](header.png)
 
 <div align="center">
@@ -58,3 +60,4 @@
 
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Quantumult+X+%E5%90%88%E9%9B%86&fontSize=24&fontColor=ffffff)
+
