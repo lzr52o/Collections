@@ -13,6 +13,51 @@
 ![访问量](https://komarev.com/ghpvc/?username=lzr52o&color=0e75b6&style=flat)
 
 </div>
+## 📖 使用说明
+
+QuantumultX 是 Quantumult X 的配置与脚本合集：`configs/` 里是现成的配置文件，`scripts/` 里是配套的解锁脚本，点链接就能订阅，不用自己写规则。
+
+### 这里有什么
+
+- [Collections.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/Collections.conf)：App 解锁合集，一批应用的会员解锁重写规则。
+- [revenuecat-markbuy.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/revenuecat-markbuy.qx.conf)：MarkBuy Pro，RevenueCat 多合一解锁。
+- [unlock-collection.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/unlock-collection.qx.conf)：解锁合集，24 个脚本：去广告、解锁会员、历史价格、Netflix 评分、头脑吃鸡答题助手。
+- [v2ex-checkin.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/v2ex-checkin.qx.conf)：V2EX 每日自动签到。
+- [weibo-enhanced.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/weibo-enhanced.qx.conf)：微博助手，去广告、去推广。
+
+`scripts/` 下的 6 个脚本（Adapty、NotBoring、revenuecat.vip、vvebo、PhotoRetouch、TouchreTouch）是各应用的解锁脚本，订阅上面的配置后会自动引用，一般不用单独加。
+
+### 需要什么
+
+- iPhone 或 iPad 上装好 Quantumult X（App Store 里的付费应用）。
+- 网络能打开 GitHub（raw.githubusercontent.com）。
+- 解锁类功能要开 HTTPS 解密（MITM）：先在 Quantumult X 里安装证书，再去系统「设置 → 通用 → 关于本机 → 证书信任设置」里信任它，否则脚本不生效。
+
+### 怎么订阅
+
+1. 复制上面想用的配置链接。
+2. 打开 Quantumult X，点右下角「设置」→「配置文件」。
+3. 点右上角的下载图标，粘贴链接，点「确定」。
+4. 下载完后点一下这个配置，切换过去就能用。
+
+也可以在 Safari 里打开配置链接，再用分享菜单选「在 Quantumult X 中打开」。
+
+### 怎么单独用一个脚本
+
+1. 在 `scripts/` 里找到要用的脚本，复制它的 raw 链接，格式是 `https://raw.githubusercontent.com/lzr52o/QuantumultX/master/scripts/脚本名`。
+2. 打开 Quantumult X，点右下角「设置」→「重写」。
+3. 点右上角「+」新建一条重写规则，把链接填进脚本地址里，保存。
+4. 回到首页，把「重写」开关打开。
+
+### 常见问题
+
+- **订阅了但没生效？** 先看三点：配置切过去了没有；首页「重写」开关开着没有；证书装好并信任了没有。都没问题就把 App 关了重开，或点一下「恢复购买」再试。
+- **链接打不开？** 先确认网络能打开 GitHub，也可以先在 Safari 里打开链接试试。
+- **怎么更新？** 配置是远程订阅的，在 Quantumult X「配置文件」里点一下就能刷新到最新版，不用重新订阅。
+- **V2EX 签到怎么用？** 订阅 v2ex-checkin.qx.conf 后，把配置里 `User` 后面的 `.*` 改成你自己的 V2EX 用户名，首次打开一次 V2EX 个人主页让它抓到 Cookie，之后每天 00:10 自动签到。
+- **Netflix 评分不显示？** 解锁合集里的 Netflix 评分要 IMDb API key，在 BoxJs 里填 `ImdbApikeyCacheKey` 才能显示。
+- **微博广告去不掉？** 用微博助手时，先把 Quantumult X 里的「兼容性增强」开关关掉。
+
 ## ⚠️ 使用声明
 
 本仓库仅供个人学习、订阅使用。**禁止转载、搬运、二次分发，禁止商用**，详见 [LICENSE](./LICENSE)。

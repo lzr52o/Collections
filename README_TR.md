@@ -13,6 +13,51 @@ Yapılandırma · Betik · Uzaktan
 ![访问量](https://komarev.com/ghpvc/?username=lzr52o&color=0e75b6&style=flat)
 
 </div>
+## 📖 Kullanım Kılavuzu
+
+QuantumultX, Quantumult X için yapılandırma ve betik koleksiyonudur: `configs/` klasöründe hazır yapılandırma dosyaları, `scripts/` klasöründe ise bunlara eşlik eden kilit açma betikleri bulunur. Bağlantıyı yapıştırarak abone olabilirsiniz; kural yazmanıza gerek yoktur.
+
+### İçindekiler
+
+- [Collections.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/Collections.conf): Uygulama kilit açma koleksiyonu — birçok uygulamada üyelik kilidini açan yeniden yazma kuralları.
+- [revenuecat-markbuy.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/revenuecat-markbuy.qx.conf): MarkBuy Pro, hepsi bir arada RevenueCat kilit açma.
+- [unlock-collection.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/unlock-collection.qx.conf): Kilit açma koleksiyonu, 24 betik: reklam engelleme, üyelik kilidi açma, fiyat geçmişi, Netflix puanları ve bilgi yarışması cevap yardımcısı.
+- [v2ex-checkin.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/v2ex-checkin.qx.conf): V2EX günlük otomatik giriş (check-in).
+- [weibo-enhanced.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/weibo-enhanced.qx.conf): Weibo yardımcısı — Weibo'daki reklamları ve tanıtım gönderilerini kaldırır.
+
+`scripts/` klasöründeki 6 betik (Adapty, NotBoring, revenuecat.vip, vvebo, PhotoRetouch, TouchreTouch) tek tek uygulamaların kilit açma betikleridir. Yukarıdaki yapılandırmalara abone olunca otomatik olarak başvurulurlar, bu yüzden genellikle tek tek eklemenize gerek yoktur.
+
+### Gerekenler
+
+- iPhone veya iPad'de yüklü Quantumult X (App Store'da ücretli uygulama).
+- GitHub'a (raw.githubusercontent.com) erişebilen bir ağ.
+- Kilit açma özellikleri HTTPS şifre çözme (MITM) gerektirir: önce Quantumult X içinde sertifikayı yükleyin, ardından iOS Ayarlar → Genel → Hakkında → Sertifika Güven Ayarları bölümünden güvenin. Güvenilmezse betikler çalışmaz.
+
+### Nasıl abone olunur
+
+1. Yukarıdan kullanmak istediğiniz yapılandırmanın bağlantısını kopyalayın.
+2. Quantumult X'i açın, sağ alttaki "Ayarlar" → "Profiller"e dokunun.
+3. Sağ üstteki indirme simgesine dokunun, bağlantıyı yapıştırın ve "Tamam"a dokunun.
+4. İndirme bitince yeni profile dokunarak geçiş yapın.
+
+Yapılandırma bağlantısını Safari'de açıp paylaşım menüsünden "Quantumult X ile Aç"ı seçerek de abone olabilirsiniz.
+
+### Tek bir betik nasıl kullanılır
+
+1. `scripts/` klasöründe istediğiniz betiği bulun ve ham (raw) bağlantısını kopyalayın; biçimi şöyledir: `https://raw.githubusercontent.com/lzr52o/QuantumultX/master/scripts/betik-adı`.
+2. Quantumult X'i açın, sağ alttaki "Ayarlar" → "Yeniden Yazma"ya dokunun.
+3. Sağ üstteki "+"ya dokunarak yeni bir yeniden yazma kuralı ekleyin, betik URL'si alanına bağlantıyı yapıştırın ve kaydedin.
+4. Ana ekrana dönüp "Yeniden Yazma" anahtarını açın.
+
+### Sık sorulan sorular
+
+- **Abone oldum ama çalışmıyor?** Üç şeyi kontrol edin: yeni profile geçtiniz mi, "Yeniden Yazma" anahtarı açık mı, sertifika yüklü ve güvenilir mi? Üçü de tamamsa uygulamayı kapatıp yeniden açın veya "Satın Alımları Geri Yükle"ye dokunup tekrar deneyin.
+- **Bağlantı açılmıyor mu?** Ağınızın GitHub'a erişebildiğini doğrulayın; önce bağlantıyı Safari'de açmayı deneyin.
+- **Nasıl güncellenir?** Yapılandırmalar uzaktan aboneliktir; Quantumult X'te "Profiller" bölümünde profile dokunmanız en son sürüme yenilemek için yeterlidir. Yeniden abone olmanıza gerek yoktur.
+- **V2EX girişi (check-in) nasıl kullanılır?** v2ex-checkin.qx.conf'a abone olduktan sonra yapılandırmadaki `User` ifadesinden sonraki `.*` kısmını kendi V2EX kullanıcı adınızla değiştirin ve ilk seferde V2EX profil sayfanızı bir kez açarak çerezin alınmasını sağlayın. Sonrasında her gün 00:10'da otomatik olarak giriş yapar.
+- **Netflix puanları görünmüyor mu?** Kilit açma koleksiyonundaki Netflix puanı için bir IMDb API anahtarı gerekir; BoxJs içinde `ImdbApikeyCacheKey` alanını doldurun.
+- **Weibo reklamları gitmiyor mu?** Weibo yardımcısını kullanırken önce Quantumult X içindeki "Uyumluluk Geliştirme" anahtarını kapatın.
+
 ## ⚠️ Kullanım Bildirimi
 
 Bu depo yalnızca kişisel öğrenme ve abonelik kullanımı içindir. **Yeniden yayınlamak, aktarmak, yeniden dağıtmak ve ticari amaçla kullanmak yasaktır.** Ayrıntılar için [LICENSE](./LICENSE) dosyasına bakın.

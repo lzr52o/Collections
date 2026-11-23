@@ -13,6 +13,51 @@ Configs · Scripts · Remote
 ![访问量](https://komarev.com/ghpvc/?username=lzr52o&color=0e75b6&style=flat)
 
 </div>
+## 📖 Usage Guide
+
+QuantumultX is a collection of configs and scripts for Quantumult X: ready-made config files live in `configs/`, and matching unlock scripts live in `scripts/`. Subscribe with a link — no need to write rules yourself.
+
+### What's in here
+
+- [Collections.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/Collections.conf): App unlock collection — rewrite rules that unlock memberships across many apps.
+- [revenuecat-markbuy.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/revenuecat-markbuy.qx.conf): MarkBuy Pro, an all-in-one RevenueCat unlock.
+- [unlock-collection.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/unlock-collection.qx.conf): Unlock collection, 24 scripts: ad removal, membership unlocks, price history, Netflix ratings, and the quiz answer helper.
+- [v2ex-checkin.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/v2ex-checkin.qx.conf): Automatic daily check-in for V2EX.
+- [weibo-enhanced.qx.conf](https://raw.githubusercontent.com/lzr52o/QuantumultX/master/configs/weibo-enhanced.qx.conf): Weibo assistant — removes ads and promoted posts from Weibo.
+
+The 6 scripts in `scripts/` (Adapty, NotBoring, revenuecat.vip, vvebo, PhotoRetouch, TouchreTouch) are unlock scripts for individual apps. They are referenced automatically once you subscribe to a config above, so you usually don't need to add them one by one.
+
+### What you need
+
+- Quantumult X installed on your iPhone or iPad (a paid app on the App Store).
+- Network access to GitHub (raw.githubusercontent.com).
+- Unlock features need HTTPS decryption (MITM): install the certificate in Quantumult X, then trust it in iOS Settings → General → About → Certificate Trust Settings. Without it, scripts won't work.
+
+### How to subscribe
+
+1. Copy the link of the config you want above.
+2. Open Quantumult X, tap "Settings" (bottom right) → "Profiles".
+3. Tap the download icon (top right), paste the link, and tap "OK".
+4. Once downloaded, tap the new profile to switch to it.
+
+You can also open a config link in Safari and use the share menu to open it in Quantumult X.
+
+### How to use a single script
+
+1. Find the script you want in `scripts/` and copy its raw link, which looks like `https://raw.githubusercontent.com/lzr52o/QuantumultX/master/scripts/<script-name>`.
+2. Open Quantumult X, tap "Settings" (bottom right) → "Rewrite".
+3. Tap "+" (top right) to add a rewrite rule, paste the link as the script URL, and save.
+4. Go back to the home screen and turn on the "Rewrite" switch.
+
+### FAQ
+
+- **Subscribed but nothing happens?** Check three things: did you switch to the new profile, is the "Rewrite" switch on, and is the certificate installed and trusted? If all three are fine, force-close the app and reopen it, or tap "Restore Purchases" and try again.
+- **Can't open the link?** Make sure your network can reach GitHub; try opening the link in Safari first.
+- **How do I update?** Configs are remote subscriptions — tap the profile in Quantumult X → "Profiles" to refresh to the latest version. No need to subscribe again.
+- **How does the V2EX check-in work?** After subscribing to v2ex-checkin.qx.conf, replace `.*` after `User` in the config with your own V2EX username, then open your V2EX profile page once so it can grab your cookie. After that it checks in automatically at 00:10 every day.
+- **Netflix ratings not showing?** The Netflix rating in the unlock collection needs an IMDb API key — fill in `ImdbApikeyCacheKey` in BoxJs.
+- **Weibo ads still there?** When using the Weibo assistant, turn off the "Compatibility Enhancement" switch in Quantumult X first.
+
 ## ⚠️ Usage Notice
 
 This repository is for personal learning and subscription use only. **Reposting, re-uploading, and redistribution are prohibited, as is commercial use.** See [LICENSE](./LICENSE) for details.
