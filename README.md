@@ -11,6 +11,10 @@
 ![访问量](https://komarev.com/ghpvc/?username=lzr52o&color=0e75b6&style=flat)
 
 </div>
+## ⚠️ 使用声明
+
+本仓库仅供个人学习、订阅使用。**禁止转载、搬运、二次分发，禁止商用**，详见 [LICENSE](./LICENSE)。
+
 
 ## 📊 数据统计
 
