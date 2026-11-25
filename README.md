@@ -87,7 +87,7 @@ QuantumultX 是 Quantumult X 的配置与脚本合集：`configs/` 里是现成�
 
 <div align="center">
 
-<img src="https://www.dmoe.cc/random.php" width="160" height="140" alt="二次元随机图" /><img src="https://daily-sentence.lzr52o.workers.dev/sentence" width="440" height="140" alt="每日一句" /><img src="https://www.dmoe.cc/random.php?v=2" width="160" height="140" alt="二次元随机图" />
+<img src="https://daily-sentence.lzr52o.workers.dev/sentence" width="440" height="140" alt="每日一句" />
 
 </div>
 
