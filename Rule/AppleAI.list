@@ -1,0 +1,44 @@
+# Apple Intelligence / Apple 服务规则
+# 来源：用户 Stash 规则截图整理，补齐视频 8 条中截图未见的 2 条
+# 更新：2026-11-27
+# 适用：Quantumult X（订阅规则时策略选美国节点，勿用香港节点）
+HOST-SUFFIX,guzzoni.apple.com
+HOST-SUFFIX,smoot.apple.com
+HOST-SUFFIX,siri.apple.com
+HOST-SUFFIX,api-siri-prod.apple.com
+HOST-SUFFIX,seed-siri-apple-com.v.aaplimg.com
+HOST-SUFFIX,nlp.apple.com
+HOST-SUFFIX,prod.dss.apple.com
+HOST-SUFFIX,apple-relay.apple.com
+HOST-SUFFIX,apple-native-relay.apple.com
+HOST-SUFFIX,apple-relay.cloudflare.com
+HOST-SUFFIX,apple-relay.fastly-edge.com
+HOST-SUFFIX,apple-relay.akamaized.net
+HOST-SUFFIX,mask.icloud.com
+HOST-SUFFIX,mask-h2.icloud.com
+HOST-SUFFIX,mask-api.icloud.com
+HOST-SUFFIX,mask-boot.icloud.com
+HOST-SUFFIX,mask-canary.icloud.com
+HOST-SUFFIX,mask.apple-dns.net
+HOST-SUFFIX,mask-t.apple-dns.net
+HOST-SUFFIX,mask-api.fe.apple-dns.net
+HOST-SUFFIX,mask-api.fe2.apple-dns.net
+HOST-SUFFIX,gateway.icloud.com
+HOST-SUFFIX,probe.icloud.com
+HOST-SUFFIX,api.apple-cloudkit.com
+HOST-SUFFIX,wps.apple.com
+HOST-SUFFIX,siri-search.apple.com
+HOST-SUFFIX,assistant.apple.com
+HOST-SUFFIX,assistant-api.apple.com
+HOST-SUFFIX,gdmf.apple.com
+HOST-SUFFIX,gdmf-ados.apple.com
+HOST-SUFFIX,cp4.cloudflare.com
+HOST-SUFFIX,apps.mzstatic.com
+HOST,gspe1-ssl.ls.apple.com
+HOST,seed.siri.apple.com
+HOST,apple-relay.mask.apple-dns.net
+HOST,metrics.icloud.com
+HOST-KEYWORD,siri
+HOST-KEYWORD,guzzoni
+HOST-KEYWORD,smoot
+HOST-KEYWORD,assistant
